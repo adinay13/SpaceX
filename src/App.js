@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from "./components/navbar/NavBar";
+import Falcon from "./components/falcon/Falcon";
+import Universe from "./components/universe/Universe";
+import News from "./components/news/News";
+import Sun from "./components/universe/Sun";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+
+                <NavBar/>
+                <Universe/>
+            <Sun/>
+                <Falcon/>
+            <News/>
+
+
+        </div>
+
+    );
 }
 
 export default App;

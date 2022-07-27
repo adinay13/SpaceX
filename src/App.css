@@ -1,38 +1,72 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{
+  background-color: black;
+  color: white;
+  font-family: Cairo;
+
+}
+.navik {
+  color: white;
+  display: flex;
+  width: 1100px;
+  margin: 0 auto;
+}
+.shtuki {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+.shtuki a{
+  margin-left: 80px;
+  text-decoration: none;
+  color: white;
+}
+.falcon {
+  margin-top: 50px;
   text-align: center;
 }
+a:hover {
+  color: cornflowerblue;
+  transform: scale(1.2);
+}
+.navik img {
+  width: 150px;
+  height: 90px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.time h4{
+  margin-top: 30px;
+  color: cornflowerblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.universe {
+  margin-top: 50px;
+  text-align: center;
+}
+.universe img {
+  width: 900px;
+  height: 400px;
+}
+ h1{
+  color: cornflowerblue;
+  font-size: 45px;
+   padding-bottom: 30px;
+   font-family: Cairo;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a {
+  font-size: 18px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sun {
+  margin-top: 50px;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sun img {
+  width: 900px;
+  height: 500px;
 }
